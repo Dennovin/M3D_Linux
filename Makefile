@@ -1,5 +1,5 @@
 PROG = m3d-linux
-CC = g++
+CC ?= g++
 SRCS = main.cpp gcode.cpp printer.cpp
 CFLAGS = -Wall -std=c++14 -O3
 
